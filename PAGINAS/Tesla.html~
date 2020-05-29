@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+<title>EL SALVAJE</title>
+<link rel="stylesheet" href="estilosjajas.css">
+ <script src="FUNCIONES.js"></script>
+</head>
+
+<body>
+<header id="main-header">
+		
+		<a id="logo-header" href="LETRAS.html">
+			<span class="site-name">LETRAS.com</span>
+		
+		</a> 
+		</header>
+<section id="Borde">
+<img id="cuervoo"  src="../imagenesjuasjuas//tesla.jpg" width="239" height="393">
+</section>
+<div id="compras">
+<h2 id="mony">PRECIO 500$</h2>
+
+
+<div id="nuevocolor">
+<a href="producto.html"><button type="button" id="comp">COMPRAR</button></a>
+</div>
+</div>
+
+<footer id="descrip">
+<p  id="descripcion">DESCRIPCIÓN</p>
+
+
+<p>
+
+Antes del incendio, Nick Slate era un chico feliz en Tampa, 
+Florida. Tenía una familia normal, una casa normal, unos amigos normales y 
+una vida que no se salía en absoluto de lo común.<p>
+Después del incendio, Nick Slate no tiene madre, y 
+la casa que ha heredado, sus recién conocidos amigos y su nueva 
+vida en Colorado Springs son de todo menos normales.
+En cuanto llega allí, Nick sube al desván y se encuentra 
+con unos viejos objetos que van desde una tostadora 
+cromada hasta un guante de béisbol desgastado. 
+Teniendo en cuenta que su padre
+ aún no ha encontrado trabajo y que cualquier ingreso viene bien a la familia,
+ a Nick se le ocurre montar un mercadillo con estos trastos inútiles.
+ 
+</p>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

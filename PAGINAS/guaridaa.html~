@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+
+
+<html>
+
+<head>
+<title>GUARIDA</title>
+<link rel="stylesheet" href="estilosjajas.css">
+ <script src="FUNCIONES.js"></script>
+</head>
+
+<body>
+
+
+	<header id="main-header">
+		
+		<a id="logo-header" href="LETRAS.html">
+			<span class="site-name">LETRAS.com</span>
+		
+		</a> 
+		</header>
+ 
+<section id="Borde">
+<img id="cuervoo"  src="../imagenesjuasjuas/guar.jpg" width="239" height="393">
+</section>
+<div id="compras">
+<h2 id="mony">PRECIO 38$</h2>
+
+
+<div id="nuevocolor">
+<a href="producto.html"><button type="button" id="comp">COMPRAR</button></a>
+</div>
+
+</div>
+
+<footer id="descrip">
+
+<p  id="descripcion">DESCRIPCIÓN</p>
+
+
+<p>La guarida del horror es uno de los mejores libros de horror y misterio desde su época a la actualidad,  
+ya que una vez más nuestro maestro Poe demuestra sus increíbles habilidades como escritor del genero del horror.<p>
+Este libro mantiene un ambiente oscuro, desolado y por supuesto terrorífico, algo bastante común en la mayoría
+de sus historias, solo que el gran detalle en esta entrega es el estilo narrativo que lo convierte en un libro de terror 
+unico e inolvidable.
+</p>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

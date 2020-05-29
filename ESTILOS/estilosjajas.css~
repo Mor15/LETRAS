@@ -1,0 +1,327 @@
+/*
+#titulo{
+
+border:solid 
+
+background:-webkit-radial-gradient(top,#2EFEF7 20%,#CEF6F5 80%);
+
+border-radius:60px 60px 60px 60px; 
+
+
+
+ 
+
+padding-bottom:25px; 
+padding-top: 15px;
+
+}
+*/
+#logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+	#logo-header:hover {
+		color: #0b76a6;
+	}
+	
+	#logo-header .site-name {
+		display: block;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+	
+	#logo-header .site-desc {
+		display: block;
+		font-weight: 300;
+		font-size: 0.8em;
+		color: #999;
+	}
+	
+
+/*
+ * Navegación
+ */
+nav {
+	float: right;
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 80px;
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+			}
+			
+				nav ul li a:hover {
+					background: #0b76a6;
+				}
+
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666;
+	
+	font-size: 1em;
+	line-height: 1.5em;
+	
+	padding-top: 80px; /* Relleno superior igual a la altura de la cabecera*/
+}
+
+
+#main-header {
+	background: #2EFEF7;;
+	color: white;
+	height: 80px;
+	font:bold 42px courier new; 
+	
+	
+	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed;
+}	
+	#main-header a {
+		color: white;
+	}
+
+ .ima:hover{
+
+-webkit-transform:scale(1.2);
+
+}
+
+#buk{
+	
+	
+	margin-left:20px;
+	margin-bottom:30px;
+	
+}
+
+#descrip{
+
+
+margin-left: 600px;
+font:bold 23px courier new; 
+}
+
+#comp{
+	
+	border:solid #2EFEF7;
+
+background:-webkit-radial-gradient(top,#2EFEF7 20%,#CEF6F5 80%);
+
+border-radius:60px 60px 60px 60px; 
+	
+width:124px; 	 
+
+
+
+}
+
+
+#nuevocolor:hover{
+
+box-shadow: #2EFEF7 3px 3px 5px;
+display: inline;
+
+}
+
+#mony{
+margin-left:3px; 
+
+}
+
+#compras{
+
+
+float: left;
+margin-top: 200px;
+margin-left: 30px;
+}
+
+
+#cuervoo{
+
+margin-right:65px; 
+
+}
+#Borde{
+
+margin:15px auto;
+
+border: 6px solid #0000FF;
+
+width: 239px;
+ 
+height:393px; 
+float:left;
+
+display: inline;
+}
+
+
+.tendencia{
+
+font:bold 48px courier new;
+
+}
+
+
+#condici{
+	
+	margin-left:550px;	
+	
+
+}
+/*
+#compre{
+
+border:solid #2EFEF7;
+
+background:-webkit-radial-gradient(top,#58FA58 90%,#FBFBEF 10%);
+
+border-radius:60px 60px 60px 60px; 
+	
+width:124px;
+
+
+}
+*/
+#efe:hover{
+
+text-decoration:underline;
+
+}
+
+
+
+/*.slider{
+width: 95%;
+margin: auto;
+overflow: hidden;
+}
+
+.slider ul{
+display: flex;
+padding: 0;
+width:540%;
+animation:cambio 10s infinite;
+animation-direction:alternate;
+
+}
+
+.slider li{
+
+width: 100%;
+list-style: none;
+
+}
+
+.slider img{
+
+width: 78%;
+}
+*/
+
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none inside;
+}
+ul.slider {
+    position:relative; /*Necesitamos que el ul sea relativo*/
+}
+ul.slider li {
+    opacity: 0; /*Ocultamos todos los <li>*/
+    transition: opacity .5s;
+    position: absolute; /*Posicionamos en absoluto los <li>*/
+    left: 0px;
+    top: 0px;
+    margin:50px;
+    padding:50px;
+    border:2px solid red;
+    background:#fff;
+}
+ul.slider li:first-child {
+    opacity: 1; /*Mostramos el primer <li>*/
+}
+ul.slider li:target {
+    opacity: 1; /*Mostramos el <li> al que apunta el enlace*/
+}
+nav {
+    position:relative;
+    top:200px;
+    left:50px;
+}
+
+
+#TERMI{
+	margin-top:45px;
+margin-left: 590px;
+text-decoration: none;
+	font:bold 15px Verdana,Geneva,Sana-serif;
+color:#A4A4A4;
+
+}
+
+
+#condiciones{
+
+margin-left: 66px;
+font:bold 21px courier new;
+}
+/*
+@keyframes cambio{
+
+0%{margin-left: 0;}
+20%{margin-left:0;}
+
+25%{margin-left:-137%;}
+45%{margin-left:-137%; }
+
+
+50%{margin-left:-271%;}
+70%{margin-left:-271%; }
+
+75%{margin-left:-405;}
+95%{margin-left:-405%;}
+
+
+
+}
+*/
+
+#descripcion{
+
+display: inline;
+font:normal 3.4em courier new; 
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
